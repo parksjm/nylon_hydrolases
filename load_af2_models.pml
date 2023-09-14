@@ -2,7 +2,6 @@ load 5y0m_tetramer.pdb
 hide everything, resn CL+SO4+PO4+HOH+GOL
 set_name 5y0m_tetramer, nylc
 
-load /Users/jpc/Dropbox/scripts/coloraf.py
 load nyl01_4x2/nyl01.pdb
 load nyl02_4x2/nyl02.pdb
 load nyl03_4x2/nyl03.pdb
@@ -98,7 +97,7 @@ load nyl92_4x2/nyl92.pdb
 load nyl93_4x2/nyl93.pdb
 load nyl94_4x2/nyl94.pdb
 load nyl95_4x2/nyl95.pdb
-#coloraf
+
 util.cbc
 
 load group_by_activity.pml
